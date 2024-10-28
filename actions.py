@@ -1,7 +1,7 @@
 import pyautogui
 
 # 定義各按鈕位置
-RANDOM_BUY_BUTTON_POS = (880, 750)  # 請替換為隨機購買按鈕的座標
+RANDOM_BUY_BUTTON_POS = (1150, 750)  # 請替換為隨機購買按鈕的座標
 
 def click_card(card_position, card_name):
     pyautogui.click(card_position)
